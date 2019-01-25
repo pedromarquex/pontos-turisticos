@@ -6,3 +6,6 @@ class AtracaoViewSet(ModelViewSet):
 
     queryset = Atracao.objects.all()
     serializer_class = AtracaoSerializer
+
+    # lista de verbos http permitidos por padrão
+    # http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options', 'trace']
