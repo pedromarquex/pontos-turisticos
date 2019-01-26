@@ -5,6 +5,7 @@ from avaliacoes.models import Avaliacao
 from enderecos.models import Endereco
 
 class PontoTuristico(models.Model):
+
     #dados básicos
     nome = models.CharField(max_length=150)
     descricao = models.TextField()
