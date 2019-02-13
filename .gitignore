@@ -1,6 +1,7 @@
 venv/
 media/
 *.ini
+z.code-workspace
 
 ### Django ###
 *.log
@@ -24,6 +25,7 @@ media
 *.so
 
 # Distribution / packaging
+
 .Python
 build/
 develop-eggs/
@@ -143,4 +145,5 @@ oscrypto-ca-bundle.crt
 bh_unicode_properties.cache
 
 # Pycharm files
-/.idea
+/.idea/
+/.vscode/

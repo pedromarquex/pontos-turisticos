@@ -47,7 +47,7 @@ class PontoTuristicoViewSet(ModelViewSet):
 
     # def partial_update(self, request, *args, **kwargs):
         # é um metodo que é chamado quando o servidor recebe o verbo patch
-        # deve alterar um objeto como um todo
+        # deve alterar parte de um objeto 
         # pode ser sobrescrito para alterar o comportamento da api
         # pass
 
